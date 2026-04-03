@@ -1,1 +1,107 @@
-<div align="center"> \n  # DevBin\n  <img src="https://img.shields.io/badge/Build-Passing-green" />\n  <img src=\"https://img.shields.io/badge/License-MIT-blue\" />\n  <img src=\"https://img.shields.io/github/stars/thamarai-titan/DevBin\" />\n  <img src=\"https://img.shields.io/badge/PRs-Welcome-brightgreen\" />\n  <br />\n  Discover the ultimate collection of trending and essential developer tools, all in one place. \n  Boost your productivity and stay ahead of the curve with DevBin, your go-to destination for developer excellence.\n</div>\n\n## 🚀 FEATURES\n<div style=\"display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;\">\n  * **Type Safety**: Utilize the power of TypeScript for robust and maintainable code.\n  * **Rapid Deployment**: Leverage Next.js for fast and seamless deployment of your applications.\n  * **Modular Architecture**: Organize your codebase with a modular approach using React and TypeScript.\n  * **Smooth Animations**: Enhance user experience with GSAP animations for a professional touch.\n  * **Type-safe DB Access**: Manage your database with Prisma ORM for secure and efficient data handling.\n  * **Scalable Backend**: Build scalable and high-performance backend applications with Node.js and TypeScript.\n</div>\n\n## 🏗️ TECH STACK\n| Category | Tool | Description |\n| --- | --- | --- |\n| Frontend | React/TypeScript | Utilized for building reusable UI components and a robust frontend architecture. |\n| Framework | Next.js | Employs Next.js for server-side rendering, static site generation, and performance optimization. |\n| Backend | Node.js/TypeScript | Leverages Node.js and TypeScript for building scalable, high-performance backend applications. |\n| Database | SQL | Relies on SQL databases for structured and efficient data storage. |\n| ORM | Prisma | Utilizes Prisma ORM for type-safe database access and schema management. |\n\n## 📁 PROJECT STRUCTURE\n```markdown\n.\n├── api\n│   ├── routes\n│   │   ├── index.ts\n│   │   ├── users.ts\n│   │   └── ...\n│   ├── utils\n│   │   ├── db.ts\n│   │   ├── auth.ts\n│   │   └── ...\n│   └── index.ts\n├── public\n│   ├── index.html\n│   ├── favicon.ico\n│   └── ...\n├── src\n│   ├── components\n│   │   ├── Header.tsx\n│   │   ├── Footer.tsx\n│   │   └── ...\n│   ├── pages\n│   │   ├── index.tsx\n│   │   ├── about.tsx\n│   │   └── ...\n│   ├── styles\n│   │   ├── global.css\n│   │   ├── theme.css\n│   │   └── ...\n│   └── index.tsx\n├── package.json\n├── tsconfig.json\n└── ...\n```\nThe project structure includes API routes, utility functions, public assets, source code for the frontend, and configuration files.\n\n## ⚡ QUICK START\n### Prerequisites\n* Node.js (>= 16.0.0)\n* Postgres (or any other SQL database)\n### Installation\n```bash\n# Clone the repository\ngit clone https://github.com/thamarai-titan/DevBin.git\n\n# Change into the project directory\ncd DevBin\n\n# Install dependencies\nnpm install\n\n# Set environment variables\nexport DATABASE_URL=\"postgresql://user:password@host:port/dbname\"\nexport API_KEY=\"your_api_key\"\n\n# Run the application\nnpm run dev\n```\n\n## 🛠️ CONFIGURATION\n| Variable | Default | Description |\n| --- | --- | --- |\n| DATABASE_URL | - | The URL of the PostgreSQL database. |\n| API_KEY | - | The API key for authentication. |\n| PORT | 3000 | The port number for the development server. |\n| NODE_ENV | development | The environment mode (development or production). |\n\n## 📜 SCRIPTS\n| Command | Description |\n| --- | --- |\n| `npm run dev` | Starts the development server. |\n| `npm run build` | Builds the application for production. |\n| `npm run start` | Starts the production server. |\n| `npm run test` | Runs the tests. |\n\n## 🤝 CONTRIBUTING & LICENSE\nWe welcome contributions to DevBin! If you're interested in contributing, please read our [CONTRIBUTING.md](CONTRIBUTING.md) for more information.\nDevBin is licensed under the [MIT License](https://github.com/thamarai-titan/DevBin/blob/main/LICENSE).
+<div align="center">
+  # DevBin
+  <img src="https://img.shields.io/badge/Build-Passing-success" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  <img
+    src="https://img.shields.io/github/stars/thamarai-titan/DevBin?style=social" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" />
+  <br />
+  Discover the most trending and essential developer tools in the ecosystem with
+  DevBin.
+  Elevate your development experience with our curated collection of tools and
+  resources.
+</div>
+
+## 🚀 FEATURES
+These are the key features of DevBin:
+* **Type Safety**: Utilize TypeScript for robust type checking and maintainable
+code
+* **Rapid Deployment**: Leverage Next.js for fast and efficient deployment of
+web applications
+* **Modular Architecture**: Organize code into logical modules with React and
+TypeScript
+* **Smooth Animations**: Enhance user experience with GSAP animations
+* **Type-safe DB Access**: Use Prisma ORM for secure and efficient database
+interactions
+* **Scalable Backend**: Build scalable backend services with Node.js and
+TypeScript
+
+## 🏗️ TECH STACK
+| Category | Tool | Description |
+| --- | --- | --- |
+| Frontend | React/TypeScript | Utilized for building reusable UI components and
+managing state |
+| Frontend | Next.js | Employs server-side rendering and static site generation
+for optimized performance |
+| Backend | Node.js/TypeScript | Provides a scalable and maintainable backend
+with TypeScript support |
+| Database | SQL | Relational database management system for storing structured
+data |
+| Database | Prisma ORM | Offers type-safe database access and schema management
+|
+
+## 📁 PROJECT STRUCTURE
+```
+devbin/
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── src/
+│ ├── components/
+│ │ ├── Header.tsx
+│ │ ├── Footer.tsx
+│ │ └── ...
+│ ├── pages/
+│ │ ├── index.tsx
+│ │ ├── about.tsx
+│ │ └── ...
+│ ├── api/
+│ │ ├── db.ts
+│ │ ├── prisma.ts
+│ │ └── ...
+│ ├── utils/
+│ │ ├── helpers.ts
+│ │ ├── constants.ts
+│ │ └── ...
+│ ├── index.ts
+│ └── ...
+├── package.json
+├── tsconfig.json
+└── ...
+```
+The `src` directory contains the application code, divided into `components`,
+`pages`, `api`, and `utils` folders. The `public` directory holds static assets.
+
+## ⚡ QUICK START
+### Prerequisites
+* Node.js (version 16 or higher)
+* TypeScript (version 5 or higher)
+* SQL database (e.g., PostgreSQL)
+### Installation
+```bash
+git clone https://github.com/thamarai-titan/DevBin.git
+cd DevBin
+npm install
+cp .env.example .env
+npm run dev
+```
+
+## 🛠️ CONFIGURATION
+| Variable | Default | Description |
+| --- | --- | --- |
+| DATABASE_URL | localhost:5432 | URL of the SQL database |
+| API_KEY | none | API key for external services |
+| PORT | 3000 | Port number for the development server |
+
+## 📜 SCRIPTS
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Starts the development server |
+| `npm run build` | Builds the application for production |
+| `npm run start` | Starts the production server |
+
+## 🤝 CONTRIBUTING & LICENSE
+Contributions are welcome and appreciated. Please submit a pull request with
+your changes.
+This project is licensed under the [MIT
+License](https://opensource.org/licenses/MIT).
